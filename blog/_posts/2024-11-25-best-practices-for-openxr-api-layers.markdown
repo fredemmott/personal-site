@@ -64,6 +64,8 @@ Even if your API layer or runtime is intended for a specific game that does not 
 
 If your runtime is not signed, it is likely that users of your headset can not play any OpenXR  games that use anti-cheat.
 
+*Update (2026-10-17)*: There are now popular anti-cheat systems without a hard requirement on signing, but this still varies by game; if you do not sign your DLLs, you *will* create issues for popular multiplayer games, even if it does not affect the games that you specifically are targeting.
+
 ## Use a timestamp server when signing your DLLs
 
 *Applies to API layers and runtimes*.
